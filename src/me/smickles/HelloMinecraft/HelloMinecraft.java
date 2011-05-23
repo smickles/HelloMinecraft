@@ -4,9 +4,6 @@ import java.util.logging.Logger;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.command.ConsoleCommandSender;
-import org.bukkit.event.Event;
-import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -17,13 +14,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class HelloMinecraft extends JavaPlugin {
 	
-	private final HelloMinecraftPlayerListener playerListener = new HelloMinecraftPlayerListener(this);
-	
 	Logger log = Logger.getLogger("Minecraft");
 
 	public void onEnable(){ 
-		PluginManager pm = this.getServer().getPluginManager();
-		pm.registerEvent(Event.Type.PLAYER_MOVE, playerListener, Event.Priority.Normal, this);
 				
 		log.info("Your plugin has been enabled.");
 	}
