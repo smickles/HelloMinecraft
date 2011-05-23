@@ -1,0 +1,9 @@
+name: HelloMinecraft
+main: me.smickles.HelloMinecraft.HelloMinecraft
+version: 0.0.0.1
+author: smickles
+
+commands:
+     hello:
+          escription: This command requests a greeting.
+          usage: /<command>
