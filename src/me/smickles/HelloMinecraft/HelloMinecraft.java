@@ -31,11 +31,11 @@ public class HelloMinecraft extends JavaPlugin {
 		}, 60L, 18000L); // 60 server ticks / 20 = 3 second delay
 		                 // 18000 server ticks = 15 minute repetition
 				
-		log.info("Your plugin has been enabled.");
+		log.info("HelloMinecraft successfully enabled.");
 	}
 	
 	public void onDisable(){ 
-		log.info("Your plugin has been enabled.");
+		log.info("HelloMinecraft successfully disabled.");
 	}
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
