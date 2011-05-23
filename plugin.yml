@@ -5,5 +5,5 @@ author: smickles
 
 commands:
      hello:
-          escription: This command requests a greeting.
+          description: This command requests a greeting.
           usage: /<command>
