@@ -1,6 +1,6 @@
 name: HelloMinecraft
 main: me.smickles.HelloMinecraft.HelloMinecraft
-version: 0.0.0.1
+version: 0.0.0.2
 author: smickles
 
 commands:
