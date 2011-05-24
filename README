@@ -1,1 +1,11 @@
 HelloMinecraft
+
+Author(s):
+smickles (xiberphim ,ot, gmail) a.k.a. Michael Carver
+
+HelloMinecraft is a plugin for CraftBukkit (http://bukkit.org/) which is intended to broadcast
+a customizable message to online players at regular (and also customizable) intervals.
+
+As of this writing, HelloMinecraft is in early development and is considerably incomplete. 
+
+Last Modified 23May11 by smickles
