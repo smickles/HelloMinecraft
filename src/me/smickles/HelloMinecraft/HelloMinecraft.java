@@ -79,7 +79,7 @@ public class HelloMinecraft extends JavaPlugin{
 
 	public void saveProperties() { // save or crate our conf file
 		
-		try { // I don't thoughly understand this stuff yet, thanks again to Mindless728
+		try { // I don't throughly understand this stuff yet, thanks again to Mindless728
 			BufferedWriter writer = new BufferedWriter(new FileWriter(dataFile));
 			writer.write("BroadcastMessage: "+broadcastMessage);
 			writer.newLine();
