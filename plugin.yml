@@ -19,7 +19,7 @@
 
 name: HelloMinecraft
 main: me.smickles.HelloMinecraft.HelloMinecraft
-version: 0.0.0.2
+version: 0.0.1.0
 author: smickles
 
 commands:
