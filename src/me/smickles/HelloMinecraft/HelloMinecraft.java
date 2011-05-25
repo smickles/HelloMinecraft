@@ -14,7 +14,24 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * HelloMinecraft plugin for Bukkit
+ * HelloMinecraft a plugin for Bukkit
+ * 
+ * Copyright 2011 Michael Carver (a.k.a. smickles)
+ * 
+ * This file is part of HelloMinecraft.
+ *
+ *  HelloMinecraft is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  HelloMinecraft is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with HelloMinecraft.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @author smickles
  */
@@ -52,7 +69,8 @@ public class HelloMinecraft extends JavaPlugin{
 		}, 60L, broadcastInterval); // 60 server ticks / 20 = 3 second delay
 		                 // broadcastInterval default is 18000 server ticks = 15 minute repetition
 				
-		log.info("HelloMinecraft successfully enabled.");
+		System.out.println(getDescription().getName()+" version "+getDescription().getVersion()+" enabled");
+		// this is what used to be up (^) there: log.info("HelloMinecraft successfully enabled.");
 	}
 	
 	public void loadProperties() { // load our conf file

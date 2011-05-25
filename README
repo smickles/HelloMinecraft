@@ -1,4 +1,20 @@
 HelloMinecraft
+Copyright 2011 Michael Carver
+
+ * This file is part of HelloMinecraft.
+ *
+ *  HelloMinecraft is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  HelloMinecraft is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with HelloMinecraft.  If not, see <http://www.gnu.org/licenses/>.
 
 Author(s):
 smickles (xiberphim ,ot, gmail) a.k.a. Michael Carver
@@ -8,4 +24,4 @@ a customizable message to online players at regular (and also customizable) inte
 
 As of this writing, HelloMinecraft is in early development and is considerably incomplete. 
 
-Last Modified 23May11 by smickles
+This file last modified 25May11 by smickles
