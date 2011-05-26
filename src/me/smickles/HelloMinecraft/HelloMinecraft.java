@@ -40,7 +40,7 @@ public class HelloMinecraft extends JavaPlugin{
 	
 	Logger log = Logger.getLogger("Minecraft");
 	String dataFile;
-	String broadcastMessage = "Hello";
+	String broadcastMessage = "Howdy all! Thanks for being here.";
 	long broadcastInterval = 18000;
 
 	public void onEnable(){ 
